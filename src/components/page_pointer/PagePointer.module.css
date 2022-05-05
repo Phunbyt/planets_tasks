@@ -1,0 +1,25 @@
+.pagePointer{
+    position: absolute;
+    bottom: 5em;
+    right: 5em;
+}
+
+.pagePointer__container {
+    background: rgb(140, 103, 156);
+    padding: .5em;
+    border-radius: 0.5rem;
+}
+
+.pagePointer__container button{
+    background: none;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+.pagePointer__container button:hover{
+    background: rgba(0,0,0,0.5);
+}

@@ -1,0 +1,33 @@
+.table_item_container{
+    display: flex;
+    text-align: left;
+    height: 50px;
+    padding: .5em;
+    width: 190%;
+    border-top: 1px solid rgb(103, 103, 107);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.table_item{
+    display: flex;
+    width: 100%;
+    max-width: 150px;
+    text-align: left;
+    align-items: center;
+    flex: 0 0 auto;
+   
+}
+
+.table_item_wide {
+    max-width: 250px;
+}
+.table_item_serial_number {
+    max-width: 50px;
+
+}
+
+.table_item_container:hover{
+    background-color: #bbb4b4;
+
+}

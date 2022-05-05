@@ -1,0 +1,19 @@
+.pageBody {
+  width: 100%;
+  padding: 2em;
+  background-color: #b8fdfb;
+}
+
+.pageBodyHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.pageBodyHeadSpinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 35px;
+}

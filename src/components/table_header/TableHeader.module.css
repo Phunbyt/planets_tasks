@@ -1,0 +1,26 @@
+.table_item_container {
+    display: flex;
+    text-align: left;
+    height: 50px;
+    font-weight: bold;
+}
+
+
+.table_item {
+    display: flex;
+    width: 100%;
+    max-width: 150px;
+    text-align: left;
+    align-items: center;
+    padding: 0.5rem;
+    flex: 0 0 auto;
+}
+
+.table_item_wide {
+    max-width: 250px;
+}
+
+.table_item_serial_number {
+    max-width: 50px;
+
+}

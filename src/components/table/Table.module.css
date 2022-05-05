@@ -1,0 +1,16 @@
+.table{
+   
+    border-radius: 0.5rem; 
+    height: 100%;
+    background-color: #fff;
+    overflow-y: scroll;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+   
+}
+
+.table_items_error{
+    color: rgb(255, 31, 31);
+    display:flex;
+    justify-content: center;
+    margin: 5em auto;
+}
